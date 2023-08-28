@@ -5,8 +5,13 @@ const AlunosENotas = [alunos, notas]
 
 function verificarAlunoEMedia(aluno) {
     if (AlunosENotas[0].includes(aluno)){
-        const indice = AlunosENotas[0].indexOf(aluno)
-        const nota = AlunosENotas[1][indice]
+
+        const alunos = AlunosENotas[0]
+        const medias = AlunosENotas[1]
+
+        const indice = alunos.indexOf(aluno)
+        const nota = medias[indice]
+        
         console.log(`O aluno ${aluno} tem a nota ${nota}`)
     }else {
         console.log(`Aluno ${aluno} não cadastrado`)
