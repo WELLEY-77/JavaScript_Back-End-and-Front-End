@@ -1,0 +1,24 @@
+[
+    {
+        "titulo":"Python",
+        "preco":"20"
+    },
+    {
+        "titulo":"PHP",
+        "preco":"15"
+    },
+    {
+        "titulo":"Java",
+        "preco":"50"
+    },
+    {
+        "titulo":"Elixir",
+        "preco":"35"
+    },
+    {
+        "titulo":"GO",
+        "preco":"40"
+    }
+]
+
+

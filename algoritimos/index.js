@@ -1,11 +1,11 @@
-const precosLivros = [20, 15, 35, 40, 50, 20];
+const livros = require('./listaLivros.json')
 
 let maisBarato = 0;
 
-for (let atual = 0; atual < precosLivros.length; atual++){
-    if (precosLivros[atual] < precosLivros[maisBarato]){
+for (let atual = 0; atual < livros.length; atual++){
+    if (livros[atual].preco < livros[maisBarato].preco){
         maisBarato = atual
     }
 }
 
-console.log(` O menor preço é ${precosLivros[maisBarato]} `)
+console.log(` O livro mais barato Custa ${livros[maisBarato].preco}, e seu titulo é ${livros[maisBarato].titulo} `)
