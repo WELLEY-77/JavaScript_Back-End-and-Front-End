@@ -1,0 +1,9 @@
+.isLigth {
+    background-color: #f1f5f9;
+    color: #212529;
+}
+
+.isDark {
+    background-color: #212529;
+    color: #f1f5f9;
+}
